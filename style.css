@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+      background: #6f4e37;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+    }
+
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f7f1e1;
+      color: #4b3b2b;
+    }
+
+    main>img{
+        height: 100%;
+        width: 100%;
+    }
+    
