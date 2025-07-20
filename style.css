@@ -83,6 +83,7 @@ header {
     }
 
     .sobre{
+      
       text-align: center;
       padding-top:20px;
     }
@@ -105,17 +106,56 @@ header {
 
     .produtoss {
       display: flex;
-      gap: 30px; /* Espaçamento entre as divs */
-      padding: 20px;
+      padding-left: 70px;
+      gap: 470px;
+      padding: 40px;
+      background-color: #f7f1e1;
+      font-size: 2em;
+      
     }
 
-    .box {
-      flex: 1;
-      background-color: #d9b382;
-      padding: 40px;
+    .box1 {
+      width: 400px;
+      height: 500px;
+      background: #4d301c;
+      border-radius:20px;
+      box-shadow: 0px 1px 20px black;
+    }
+    .box1>img{
+      width: 400px;
+      height: 300px;
+    }
+
+    .box1>h1{
+      padding: 10px;
+      color: white;
+    }
+    .box1:hover{
+    
+    }
+
+    .box1>p{
+      font-size: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: wheat;
+    }
+
+    .box2{
+      width: 400px;
+      height: 500px;
+      background: #4d301c;
+    }
+
+    .box2>img{
+      width: 400px;
+      height: 400px;
+    }
+
+    footer{
       text-align: center;
-      border-radius: 10px;
-      font-weight: bold;
-      color: #4b3b2b;
+      background-color: #4d301c;
+      color: #f7f1e1;
+      font-size: 10px;
     }
 
