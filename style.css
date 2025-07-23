@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+html{
+   scroll-behavior: smooth;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -37,6 +39,7 @@ header {
       margin: 0;
       background: #f7f1e1;
       color: #32261a;
+       scroll-behavior: smooth;
     }
 
    .hero {
@@ -182,3 +185,4 @@ header {
       font-size: 10px;
     }
 
+    
