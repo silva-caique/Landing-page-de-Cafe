@@ -177,28 +177,6 @@ header {
       }
     }
 
-    #Cardapio{
-      background-color: #4b2f21;
-      color: white;
-      width: 100%;
-      
-      
-    }
-    #Cardapio>h1{
-      text-align: center;
-    }
-    #Cardapio>h2{
-      padding-left: 10px;
-      padding-top: 20px;
-      padding-bottom: 10px;
-    }
-
-    #Cardapio>ul{
-      padding-left: 40px;
-      
-    }
-  
-
     footer{
       text-align: center;
       background-color: #4d301c;

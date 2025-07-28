@@ -1,123 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cafe do povo</title>
-    <link rel="stylesheet" href="style.css">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cafe do povo</title>
+  <link rel="stylesheet" href="style.css" />
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
-</style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  </style>
 </head>
-<header>
+
+<body>
+  <header>
     <h1>Café do Povo</h1>
     <nav>
-     <a href="sobre"> sobre</a>
-     <a href="produtos">produtos</a>
-     <a href="contato">contato</a>   
+      <a href="#sobre">Sobre</a>
+      <a href="#produtos">Produtos</a>
     </nav>
-</header>
-<body>
-    <main id="contato" class="hero">
-        <h1><strong>Descubra o sabor do café perfeito</strong></h1>
-        <p>Grãos selecionados, torrefação artesanal e um aroma que desperta os sentidos.</p>
-        <a href="Compre Agora"> Compre Agora</a>
-    </main>
-    
-    <section class="sobre">
-       
-        <h1>Sobre o Café do Povo</h1>
-        <p>No Café Aroma, valorizamos a tradição e a qualidade. Selecionamos os melhores grãos de café do mundo e realizamos uma torrefação artesanal para garantir um sabor único e marcante. Cada xícara é uma experiência que conecta você com o verdadeiro prazer do café.</p>
-    </section>
+  </header>
 
-    <section class="produutos">
-       
-        <h1>Nossos produtos</h1>
-        
-  <div class="produtos">
+  <main id="contato" class="hero">
+    <h1><strong>Descubra o sabor do café perfeito</strong></h1>
+    <p>Grãos selecionados, torrefação artesanal e um aroma que desperta os sentidos.</p>
+    <a href="Compre Agora">Compre Agora</a>
+  </main>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Espresso">
-      <div class="card-content">
-        <h3 class="titulo">Espresso</h3>
-        <p>Expresso intenso e encorpado, ideal para quem busca um sabor marcante e direto.</p>
-        <button>Shop Now</button>
+  <!-- Adicionado id="sobre" -->
+  <section id="sobre" class="sobre">
+    <h1>Sobre o Café do Povo</h1>
+    <p>No Café Aroma, valorizamos a tradição e a qualidade. Selecionamos os melhores grãos de café do mundo e realizamos uma torrefação artesanal para garantir um sabor único e marcante. Cada xícara é uma experiência que conecta você com o verdadeiro prazer do café.</p>
+  </section>
+
+  <!-- Adicionado id="produtos" -->
+  <section id="produtos" class="produutos">
+    <h1>Nossos produtos</h1>
+    <div class="produtos">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Espresso">
+        <div class="card-content">
+          <h3 class="titulo">Espresso</h3>
+          <p>Expresso intenso e encorpado, ideal para quem busca um sabor marcante e direto.</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imagens/americano.png" alt="Americano">
+        <div class="card-content">
+          <h3 class="titulo">Café Americano</h3>
+          <p>Leve e suave, perfeito para quem prefere um café mais equilibrado e menos intenso.</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Cold Brew">
+        <div class="card-content">
+          <h3 class="titulo">Cold Brew</h3>
+          <p>Café extraído a frio por longas horas, com sabor suave, menos acidez e muito refrescante.</p>
+          <button>Shop Now</button>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="card">
-      <img src="imagens/americano.png" alt="Americano">
-      <div class="card-content">
-        <h3 class="titulo">Café Americano</h3>
-        <p>Leve e suave, perfeito para quem prefere um café mais equilibrado e menos intenso.</p>
-        <button>Shop Now</button>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Cold Brew">
-      <div class="card-content">
-        <h3 class="titulo">Cold Brew</h3>
-        <p>Café extraído a frio por longas horas, com sabor suave, menos acidez e muito refrescante.</p>
-        <button>Shop Now</button>
-      </div>
-    </div>
-    </section>
-
-    <section id="Cardapio">
-  <h1> CARDÁPIO – CAFETERIA DO DIA</h1>
-
-  <h2> CAFÉS TRADICIONAIS</h2>
-  <ul>
-    <li><strong>Expresso</strong> – €1,08<br><em>Puro, intenso e encorpado.</em></li>
-    <li><strong>Expresso Duplo</strong> – €1,44<br><em>Duas doses de sabor concentrado.</em></li>
-    <li><strong>Café Coado</strong> – €0,90<br><em>Clássico, filtrado com sabor suave.</em></li>
-    <li><strong>Café Americano</strong> – €1,26<br><em>Espresso diluído, leve e aromático.</em></li>
-  </ul>
-
-  <h2>CAFÉS COM LEITE</h2>
-  <ul>
-    <li><strong>Café com Leite</strong> – €1,26<br><em>Tradicional e reconfortante.</em></li>
-    <li><strong>Latte</strong> – €1,80<br><em>Espresso com leite vaporizado e leve espuma.</em></li>
-    <li><strong>Cappuccino</strong> – €1,98<br><em>Perfeito equilíbrio entre café, leite e espuma.</em></li>
-    <li><strong>Macchiato</strong> – €1,44<br><em>Espresso com toque de leite cremoso.</em></li>
-    <li><strong>Mocaccino</strong> – €2,16<br><em>Café, leite e chocolate com chantili.</em></li>
-  </ul>
-
-  <h2> GELADOS & ESPECIAIS</h2>
-  <ul>
-    <li><strong>Cold Brew</strong> – €2,16<br><em>Infusão fria e sabor suave.</em></li>
-    <li><strong>Iced Coffee</strong> – €1,80<br><em>Café gelado com gelo e leite opcional.</em></li>
-    <li><strong>Frapê de Café</strong> – €2,52<br><em>Batido com gelo, cremoso e refrescante.</em></li>
-    <li><strong>Cold Brew com Chantili e Chocolate</strong> – €2,70<br><em>Gelo, creme e pedacinhos de chocolate.</em></li>
-  </ul>
-
-  <h2> ACOMPANHAMENTOS</h2>
-  <ul>
-    <li><strong>Bolo do Dia (fatia)</strong> – €1,26</li>
-    <li><strong>Croissant Recheado</strong> – €1,62</li>
-    <li><strong>Cookie Artesanal</strong> – €1,08</li>
-    <li><strong>Pão de Queijo (unidade)</strong> – €0,72</li>
-  </ul>
-
-  <h2> OPÇÕES EXTRAS</h2>
-  <ul>
-    <li>Leite vegetal (amêndoas, aveia ou soja): +€0,36</li>
-    <li>Chantili extra: +€0,36</li>
-    <li>Calda de caramelo ou chocolate: +€0,27</li>
-  </ul>
-    </section>
-
-
-      <footer>
-        <h2>Café do Povo. Todos os direitos reservados. Feito por caique</h2>
-      </footer>
-    
-
-    
-
+  <footer>
+    <h2>Café do Povo. Todos os direitos reservados. Feito por caique</h2>
+  </footer>
 </body>
 </html>
