@@ -7,7 +7,7 @@ html{
     padding: 0px;
 }
 header {
-      background: #4d301c;
+      background: #4d301cfa;
       padding: 10px ;     
       display: flex;
       justify-content: space-between;
